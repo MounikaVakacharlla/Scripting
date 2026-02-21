@@ -1,0 +1,1 @@
+The shebang (also called hashbang, sharp-bang, or #!) is the first line of a script that tells the operating system which interpreter to use to execute the file.
