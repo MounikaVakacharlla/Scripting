@@ -1,1 +1,67 @@
-The shebang (also called hashbang, sharp-bang, or #!) is the first line of a script that tells the operating system which interpreter to use to execute the file.
+#The shebang (also called hashbang, sharp-bang, or #!) is the first line of a script that tells the operating system which interpreter to use to execute the file.
+
+#!/bin/bash
+#my first script
+#echo "i am learning devops!"
+#echo "Today is:$(date)"
+
+#shebang variations
+#!/bin/bash     # system bash
+#!/usr/bin/bash       #absolute path to bash
+#!/usr/bin/env/bash   #uses path to find bash
+#!/bin/sh  #Bourne shell (basics, less features)
+#!/bin/zsh #z shell
+#!/usr/bin/python3 #python script
+#!/usr/bin/env node #node.js script
+#!/bin/awk -f #AWK Script
+#!/bin/sed -f # SED Script
+#!/usr/bin/env bash
+
+#echo "Bash path:$(which bash)"
+#echo "this script is portable"
+
+#!/usr/bin/python3
+#this is python script
+print("Hello i am using python")
+print ("but the file is saved with .txt extension")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
