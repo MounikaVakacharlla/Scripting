@@ -1,0 +1,18 @@
+name: Run on my local machine
+
+on: [push]
+
+jobs:
+  local-job:
+    # This tells GitHub to use YOUR computer instead of ubuntu-latest
+    runs-on: self-hosted
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Show I'm running locally
+        run: |
+          echo "🎉 This is running on my own computer!"
+          echo "Current directory: $(pwd)"
+          echo "Operating system: $(uname -a)"
